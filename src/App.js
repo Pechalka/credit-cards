@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h2>Список банковских карт</h2>
+          <h2>Список банковских карт 2</h2>
         </div>
         <CardForm onAdd={this.addCard} />
         <CardsList
