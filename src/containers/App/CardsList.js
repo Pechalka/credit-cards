@@ -13,6 +13,7 @@ const CardsListContainer = ({ removeCard, cards}) => (
 	      <CardItem
 	        card={card}
 	        removeCard={removeCard}
+	        key={card.id}
 	      />
 	    ))}
 	</CardsList>
