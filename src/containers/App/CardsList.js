@@ -1,10 +1,10 @@
 import React from 'react';
 
 import { connect } from 'react-redux';
-import { removeCardAction } from '../../modules/cards';
+import { removeCardAction } from 'modules/cards';
 
-import CardItem from '../../components/CardItem';
-import CardsList from '../../components/CardsList';
+import CardItem from 'components/CardItem';
+import CardsList from 'components/CardsList';
 
 
 const CardsListContainer = ({ removeCard, cards}) => (

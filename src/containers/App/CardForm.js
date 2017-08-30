@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { addCardAction } from '../../modules/cards';
+import { addCardAction } from 'modules/cards';
 
-import { getCardType } from '../../utils';
+import { getCardType } from 'utils';
 
-import Button from '../../components/Button';
-import Control from '../../components/Control';
-import CardIcon from '../../components/CardIcon';
-import { CardForm, CardFormFooter } from '../../components/CardForm';
+import Button from 'components/Button';
+import Control from 'components/Control';
+import CardIcon from 'components/CardIcon';
+import { CardForm, CardFormFooter } from 'components/CardForm';
 
 class CardFormContainer extends Component {
 	constructor(props) {
