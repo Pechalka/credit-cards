@@ -51,7 +51,7 @@ class CardForm extends Component {
 			comments
 		} = this.state;
 		const type = getCardType(number);
-		const disabledSave = this.state.number.length < 16 && (type === 'Mastercard' || type === 'Visa');
+		const disabledSave = this.state.number.length < 16 && type !== 'Mastercard' && type !== 'Visa';
 
 		return (
 			<div className='card-form'>
