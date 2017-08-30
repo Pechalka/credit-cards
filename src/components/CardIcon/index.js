@@ -12,7 +12,7 @@ const CardIcon = ({ number }) => {
 	if (type === 'Visa') {
 		return (
 			<div className='card-icon'>
-				<img src={visa} />
+				<img src={visa} alt='visa' />
 			</div>
 		);
 	}
@@ -20,7 +20,7 @@ const CardIcon = ({ number }) => {
 	if (type === 'Mastercard') {
 		return (
 			<div className='card-icon'>
-				<img src={mastercard} />
+				<img src={mastercard} alt='mastercard'/>
 			</div>
 		);
 	}
