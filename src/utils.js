@@ -1,3 +1,4 @@
+// https://stackoverflow.com/questions/5911236/identify-card-type-from-card-number
 
 export const getCardType = (number) => {
     // visa

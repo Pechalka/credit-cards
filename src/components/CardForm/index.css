@@ -1,0 +1,12 @@
+
+.card-form {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.card-form__footer {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
